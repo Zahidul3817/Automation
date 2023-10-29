@@ -14,5 +14,15 @@ public class Methods_types {
 	public void getEmpInfo(String name) {// void parameter method
 
 	}
+	
+	String getage() {
+		return null;
+		
+		
+	}
+	double getmoney() {
+		return 0;
+		
+	}
 
 }
