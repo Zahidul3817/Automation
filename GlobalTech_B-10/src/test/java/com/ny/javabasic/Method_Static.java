@@ -36,7 +36,31 @@ public class Method_Static {
 		Method_Static object = new Method_Static();
 		object.getEmpAddress();
 		object.getEmpInfo();
+		//-----------------------------------
+		// calling return method
+		 object.getCity();
+		 // calling >> return method
+		 //String City = object.getCity();
+		System.out.println("Return method call:: " + object.getCity());
+		
+		 // calling >> return parameter method
+		String City1 = object.getCity1("Dhaka");
+		System.out.println("Return parameter method:: " +City1);
+		
+		
 
 	}
+	// declaring return method
+	public String getCity() {
+		String city="New York";
+		return city;
+		
+	}
+	// declaring return parameter method
+		public String getCity1(String city1) {
+			//city1="New York";
+			return city1;
+			
+		}
 
 }
